@@ -1,0 +1,47 @@
+readme_content = """\
+# AI Chatbot
+
+This project is an AI chatbot powered by OpenAI's GPT-3.5-turbo model. The chatbot is implemented as a Flask application and uses a Tkinter interface for user interaction.
+
+## Requirements
+
+- Python 3.8 or higher
+- Flask 2.0.1
+- OpenAI
+- NLTK
+- Requests 2.25.1
+
+You can install these packages using pip:
+
+\`\`\`
+pip install -r requirements.txt
+\`\`\`
+
+## Running the Application
+
+To run the application, first set your OpenAI API key as an environment variable:
+
+\`\`\`
+export OPENAI_API_KEY=your_api_key
+\`\`\`
+
+Then, start the Flask server:
+
+\`\`\`
+python app.py
+\`\`\`
+
+Finally, run the Tkinter interface:
+
+\`\`\`
+python main.py
+\`\`\`
+
+## Usage
+
+Type your message into the entry box and press Enter to send it. The chatbot's response will be displayed above the entry box.
+
+## License
+
+This project is licensed under the terms of the MIT license.
+"""
