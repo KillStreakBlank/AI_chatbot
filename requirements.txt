@@ -1,0 +1,4 @@
+flask==2.0.1
+openai
+nltk
+requests==2.25.1
